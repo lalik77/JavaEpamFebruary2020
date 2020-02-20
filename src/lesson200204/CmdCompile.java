@@ -2,6 +2,10 @@ package lesson200204;
 
 
 /**
+ * Урок 04 февраля 2020
+ * **/
+
+/**
  * Создаем папку classes Test>mkdir classes
  *
  * компилируем с помощью находясь над кооневой папкой src
@@ -29,6 +33,7 @@ public class CmdCompile {
             for (int i = 0; i < 5; i++) {
                 System.out.println(new Box(Math.random() * 10));
             }
+
         }
 
 }
