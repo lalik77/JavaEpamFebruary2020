@@ -1,5 +1,7 @@
 package lesson200206;
 
+// Variables
+
 /*
  byte 2^8
  short 2^16
