@@ -5,42 +5,6 @@ import java.util.*;
 public class JavaDeque {
 
 
-    static int maxUnique ( int n, int m, Deque<Integer> deque) {
-
-        HashMap<Integer,Integer> map = new HashMap<>();
-
-        int first = deque.getFirst();
-        int last = deque.getLast();
-
-        //System.out.println(first + " " + last);
-
-        /*setting two iterators for deque : first_iterator and second_iterator*/
-        Iterator<Integer> first_iterator = deque.iterator();// first iterator
-        Iterator<Integer> second_iterator = deque.iterator();
-
-        // Load hashmap with m(subarray size) elements
-
-        for (int i = 0; i < m ; i++) {
-
-            int key = first_iterator.next(); // get the next value from deque
-
-            if(map.containsKey(key)) {
-
-                int counter=map.get(key);
-                map.put(key,++counter);
-            }else {
-                map.put(key,1); // первое условие не выполнится -> тогда key попадает в мар
-            }
-        }
-        System.out.println(" map : " + map.toString());
-
-
-        // Loop
-
-        return map.size();
-
-
-    }
 
     static int maksUnique (int n,int m, int[] arr) {
 
