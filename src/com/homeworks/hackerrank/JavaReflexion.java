@@ -31,7 +31,7 @@ public class JavaReflexion {
 
         Class student = StudentReflexion.class;
         StudentReflexion reflexion = new StudentReflexion();
-        //Class student2 = Class.forName("com.homeworks.hackerrank.StudentReflexion"); // error надо выбромить исключение
+        //Class student2 = Class.forName("com.homeworks.hackerrank.StudentReflexion"); // error надо выбросить исключение
         Class student3 = reflexion.getClass(); // вернет объект класса класс через экземпляр класса
 
         //System.out.println(student); // -> class com.homeworks.hackerrank.StudentReflexion
@@ -43,6 +43,13 @@ public class JavaReflexion {
         for ( Method m: methods) {
             System.out.println(m.getName());
 
+         }
+        System.out.println("***********************************************");
+
+        Class refl_class = Student.class;
+        methods = refl_class.getDeclaredMethods();
+        for (Method m: methods   ) {
+            System.out.println( m.getName() );
         }
 
     }
