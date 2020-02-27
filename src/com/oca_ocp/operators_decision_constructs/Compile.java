@@ -40,6 +40,15 @@ public class Compile {
         int a= 12 + 6*3 % (1+1); // 12 + ( 6*3 )->1 , (1+1)->2 , ( 18%2 ) -> 3
         System.out.println(a);
 
+        /*Chap 3 Question 44 snippet*/
+        System.out.println(" /*Question 44 snippet*/");
+        int characters = 5;
+        int story = 3;
+        double movieRating = characters <= 4 ? 3 : story > 1 ? 2 : 1; //->2
+       // double movieRating = characters <= 4 ?  story > 1 ? 2 : 1 : 3; // -> 3
+
+        System.out.println(movieRating);
+
 
     }
 
