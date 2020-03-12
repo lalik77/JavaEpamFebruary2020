@@ -1,7 +1,7 @@
 
 // import java.lang.Math;
 
-package com.oca_ocp;
+package com.oca_ocp.basics;
 
 
 
