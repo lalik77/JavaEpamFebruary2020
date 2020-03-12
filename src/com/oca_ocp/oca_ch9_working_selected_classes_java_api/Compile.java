@@ -42,19 +42,19 @@ public class Compile {
 
         System.out.println("\n Q13 code snippet ");
 
-        // Predicate<StringBuilder> p = (StringBuilder b) ->{return true;} ;// error
+       // Predicate<StringBuilder> p = (StringBuilder b) ->{return true;} ;// see bellow (!above)
 
-        //  Predicate<StringBuilder> p = (StringBuilder b) ->true;
+         Predicate<StringBuilder> p = (StringBuilder b) ->true;
 
 
         /*Q16 code snippet */
 
         System.out.println("\n Q13 code snippet ");
 
-        //  Predicate<String> pred1 = s->false ; //
-        // Predicate<String> pred2 = (s) -> false ; //
+        Predicate<String> pred1 = s-> false ; //
+        Predicate<String> pred2 = (s) -> false ; //
         // Predicate<String> pred3 = String s -> false ; // error the only one must not compile
-        // Predicate<String> pred4 = (String s) -> false ; //
+        Predicate<String> pred4 = (String s) -> false ; //
 
 
         /*Q20 code snippet*/
