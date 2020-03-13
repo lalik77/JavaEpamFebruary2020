@@ -1,5 +1,6 @@
 package com.oca_ocp.oca_ch9_working_selected_classes_java_api;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -96,6 +97,34 @@ public class Compile {
 
        Predicate<String> dash = c -> c.startsWith("-");
        //  Predicate dash = c->c.startsWith("-"); // not compile
+
+        /* Q34 code snippet */
+        System.out.println("\nQ34 code snippet");
+
+        Predicate clear = c -> c.equals( "clear" );
+        System.out.println( clear.test("pink") );
+
+
+        /*Q48 code snippet*/
+        System.out.println("\nQ48 code snippet");
+
+        List<String> magazines = new ArrayList<>();
+        magazines.add("Readers Digest");//[Readers Digest]
+        magazines.add("People");//[Readers Digest,People]
+        magazines.clear(); // []
+        //System.out.println(magazines);
+        magazines.add("The Economist");
+        // magazines.remove(1); // IndexOutOfBoundsException
+        magazines.clear();
+        System.out.println(magazines.size());
+
+        
+        /*Q50 code snippet */
+
+        System.out.println("\nQ50 code snippet");
+
+        LocalDate xmas = LocalDate.of(2016,12,25);
+        //xmas.seYear(2017) // error  there is not setter
 
 
 

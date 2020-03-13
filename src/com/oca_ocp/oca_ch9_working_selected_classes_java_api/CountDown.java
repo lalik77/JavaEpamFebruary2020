@@ -9,7 +9,14 @@ public class CountDown {
 
         builder = builder.substring(4); // a String of length() ;
         //System.out.println(builder);// -> 1
-        System.out.println(builder.charAt(2)); // exception ->  StringIndexOutOfBoundsException
+        //System.out.println(builder.charAt(2)); // exception ->  StringIndexOutOfBoundsException
+
+        /*Q41 code snippet*/
+        System.out.println("Q41 code snippet");
+
+        StringBuilder stringBuilder = new StringBuilder("54321");
+        stringBuilder.substring(2);// -> 321
+        System.out.println(stringBuilder);// - > 54321
 
     }
 }
