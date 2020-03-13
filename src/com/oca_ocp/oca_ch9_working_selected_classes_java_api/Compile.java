@@ -118,7 +118,7 @@ public class Compile {
         magazines.clear();
         System.out.println(magazines.size());
 
-        
+
         /*Q50 code snippet */
 
         System.out.println("\nQ50 code snippet");
