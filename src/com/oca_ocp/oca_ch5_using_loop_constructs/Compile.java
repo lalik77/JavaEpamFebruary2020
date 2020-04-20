@@ -67,9 +67,36 @@ public class Compile {
         }
         System.out.println(k);
 
+        /*Q49 code snippet */
+        q49();
+
 
 
     }
+
+
+    public static void q49() {
+
+        /*Q49 code snippet */
+        System.out.println("Q49 code snippet");
+
+        boolean balloonInFlated = false ;
+
+        do {
+            if (!balloonInFlated) {
+
+                balloonInFlated=true;
+                System.out.println("inflate-");
+            }
+
+        }while (balloonInFlated);
+        System.out.println("done");
+
+
+    }
+
+
+
 }
 
 class DoWhile1 {

@@ -1,6 +1,7 @@
 package com.oca_ocp.oca_ch7_working_inheritance;
 
 import java.io.FileNotFoundException;
+import java.io.IOException;
 
 /*Q41 */
 
@@ -14,11 +15,11 @@ public class Dance extends SuperDance{
      // public void dance() throws IOException {};// error
 
     // void dance() /* throws IOException */ {}; //error
-   //   private void dance() throws FileNotFoundException {}; // error
+    // private void dance() throws FileNotFoundException {}; // error
 
-    // public void dance() throws FileNotFoundException {}; //error
+   //public void dance() /*throws IOException*/ {}; //error
 
-    public void dance() {};
+     public void dance() {};
 
 
 }

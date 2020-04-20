@@ -12,7 +12,7 @@ abstract class Rectangle extends Parallelogram {
 }
 public final class Square extends Rectangle {
 
-    public static int getEqualSides() {return 4;} // si j enleve le mot cle static will not compile
+    public static  int getEqualSides() {return 4;} // si j enleve le mot cle static will not compile
 
 
 }

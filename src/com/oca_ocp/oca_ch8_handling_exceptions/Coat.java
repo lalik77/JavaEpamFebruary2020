@@ -6,7 +6,14 @@ public class Coat {
 
         try {
 
-            String checkZipper = (String)new Object();
+           // String checkZipper = (String) new Object();
+            String checkZipper = "kkk";
+            Integer i = (Integer) new Object();
+
+            System.out.println(checkZipper);
+            System.out.println(i);
+            /*Object exception = new Exception();
+            Exception data = (RuntimeException) exception;*/
         }catch (Exception e) {
 
             throw new RuntimeException();

@@ -7,7 +7,8 @@ public class Legos {
         StringBuilder sb = new StringBuilder();
         sb.append("red");
         sb.deleteCharAt(0);
-        sb.deleteCharAt( 1 ); // sb.deleteCharAt( 1,2 ); -> does not compile
+        //sb.deleteCharAt( 1 ); // sb.deleteCharAt( 1,2 ); -> does not compile
+        sb.delete( 1,2 );
         System.out.println(sb);
 
     }

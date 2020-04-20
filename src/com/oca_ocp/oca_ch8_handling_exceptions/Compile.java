@@ -1,5 +1,7 @@
 package com.oca_ocp.oca_ch8_handling_exceptions;
 
+import lesson200204.B;
+
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.FileSystemException;
@@ -30,14 +32,32 @@ public class Compile {
 
 
         /*Q33 code snippet*/
-       /*
+
         System.out.println("Q33 code snippet");
 
-        final Object exception = new Exception();
+       /* final Object  exception = new Exception();
         final Exception data = (RuntimeException)exception ;
-        System.out.println(data);
+        System.out.println(data);*/
 
-        */
+        /*final Object object = new Integer(2);
+        final Number number =(Integer) object;
+        System.out.println(number);*/
+
+       /* Integer i = (Integer) new Object();
+        System.out.println(i);*/
+
+
+        final Object o = new Integer(4);
+        byte b = (Byte) o ;
+
+        System.out.println(b);
+
+
+
+
+
+
+
 
         /* Q39 code snipet*/
         System.out.println("Q39 code snipet");

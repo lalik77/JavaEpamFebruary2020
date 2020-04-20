@@ -7,5 +7,7 @@ public class ParkRanger {
     public static void main(String[] args) {
         int trees=5;
         // System.out.println(trees + birds); // no access to birds , no access from static context
+        ParkRanger parkRanger = new ParkRanger();
+        System.out.println(parkRanger.birds);
     }
 }
