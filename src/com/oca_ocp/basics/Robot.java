@@ -9,7 +9,7 @@ public class Robot {
     /*Default*/ double ageMonths = 5 , ageDays = 2 ;
                 private static  boolean success = true;
 
-    public /*static */ void main(String[] args) {
+    public /*static*/  void main(String[] args) {
 
         final String retries = "1" ;
          // P1

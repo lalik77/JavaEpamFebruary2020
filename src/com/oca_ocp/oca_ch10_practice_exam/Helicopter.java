@@ -44,7 +44,8 @@ public class Helicopter {
 
         Integer[] intArray = new Integer[2];
 
-        length = h.adjustPropellers(length,type);
+       // length = h.adjustPropellers(length,type);
+        h.adjustPropellers(length,type);
         System.out.println(length +" , " + type[0]);
 
         int len2 = h.adjustPropellers(length,myType);

@@ -29,7 +29,7 @@ class ElectricBass implements DoubleBass , BassGuitar {
 
 
     }
-    @Override
+   @Override
     public int getVolume() {return 1;} // without this declaration it will not compile
 
 

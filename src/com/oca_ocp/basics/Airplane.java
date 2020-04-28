@@ -6,19 +6,36 @@ public class Airplane {
     final int end;// Без инициализации в конструкторе
                   // переменной компилятор выдаст ощибку
     // final  int middle; // -> final , значит должно поступить значение
+
+
+
     public Airplane(int x) {
 
         x=4;
         end=x;
 
+
     }
+
+
+    void setI(int a){
+
+        start=a;
+    }
+
+    //void setO(Object o) {this.o=o;} // will not compile
     public void fly(int distance) {
 
         System.out.print(end-start+" ");
         System.out.print(distance);
+
     }
 
     public static void main(String[] args) {
         new Airplane(10).fly(5);
+
+        
+
+
     }
 }

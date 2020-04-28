@@ -37,8 +37,17 @@ public class Ghost extends Phantom {
 
         // not compile options
 
-        bustNow(  a -> { System.out.println(a.intValue()); } , value  ); // Option A
-       //  bustLater( a-> { System.out.println(a.intValue() ) ; } , value  ); // Option A doe not compile
+        bustNow(  a -> { System.out.println(a.intValue()); } , value  ); // Option B
+        // bustLater( a-> { System.out.println(a.intValue() ) ; } , value  ); // Option B does not compile
+
+       // bustNow(  u -> { System.out.println((long)u); } , value  ); // Option D does not compile
+         bustLater( u-> { System.out.println((long)u ) ; } , value  ); // Option D
+
+
+        //bustNow( w -> System.out::println, value ); // Option F
+        //bustLater( w -> System.out::println , value ); // Option F
+
+
 
     }
 

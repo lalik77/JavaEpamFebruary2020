@@ -15,7 +15,7 @@ class Cat implements Friend {
 
 public class Dog implements Friend{
 
-    public String getName() throws RuntimeException { return "Doggy";  }
+    public  String getName() throws RuntimeException { return "Doggy";  }
 
     public static void main(String[] adoption) {
 

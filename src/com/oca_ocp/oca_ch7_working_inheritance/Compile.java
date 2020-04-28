@@ -45,14 +45,14 @@ public class Compile {
 
 class SuperClass {
     protected int a=5;
-     SuperClass(){}
-   public SuperClass(int a){this.a=a;}
+   // SuperClass(){}
+  // public SuperClass(int a){this.a=a;}
 }
 class SubClass extends SuperClass{
 
      int a;
-    SubClass(){}
-    public SubClass(int a) {this.a=a;}
+   //SubClass(){}
+ // public SubClass(int a) {this.a=a;}
 }
 
 

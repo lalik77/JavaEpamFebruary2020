@@ -2,7 +2,7 @@ package com.oca_ocp.oca_ch8_handling_exceptions;
 
 class BigCat {
 
-    void roar(int level) throws RuntimeException { // throw instead of throws
+     void roar(int level) throws RuntimeException { // throw instead of throws
 
         if (level < 3 ) throw new IllegalArgumentException("Incomplete");
         System.out.println("Roar!");
@@ -11,8 +11,8 @@ class BigCat {
 
 }
 
-public class Lion extends BigCat {
-    public void roar() {
+public class Lion extends BigCat{
+     public void roar() {
         System.out.println("Roar!!!");
 
     }
