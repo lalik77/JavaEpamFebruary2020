@@ -7,16 +7,16 @@ interface Pump {
     void pump(double psi);
 }
 
-interface Bend extends Pump {
+interface Bend /*extends Pump*/ {
 
     void bend(double tensileStrength);
 }
 
 public class Robot {
 
-    public static final void apply (/*Bend*/Pump instruction , double input ) {
+    public static final void apply (/*Bend*/Bend instruction , double input ) {
 
-        instruction.pump(input);
+        instruction.bend(input);
     }
 
     public static void main(String[] args) {
