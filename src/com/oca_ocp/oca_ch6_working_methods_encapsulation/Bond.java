@@ -15,6 +15,7 @@ public class Bond {
         }else if (price >=10) {
             return false;
         }
+
         return true; // missing return statement , it does not compile
 
     }

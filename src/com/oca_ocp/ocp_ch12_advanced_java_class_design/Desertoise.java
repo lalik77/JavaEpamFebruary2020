@@ -5,7 +5,7 @@ interface CanBurrow{
     public abstract void burrow();
 }
 interface HasHardShell extends CanBurrow{}
-abstract  class Tortoise implements HasHardShell{}
+abstract   class Tortoise implements HasHardShell{}
 public class Desertoise extends Tortoise {
     public int toughness(){return 11;}
     public  void burrow() {

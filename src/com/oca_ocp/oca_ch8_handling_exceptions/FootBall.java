@@ -8,7 +8,7 @@ public class FootBall {
         try {
 
             System.out.println('A');
-            throw new RuntimeException("out of bounds");
+            throw new  ArrayIndexOutOfBoundsException("hy")/*RuntimeException("out of bounds")*/;
 
         }catch(ArrayIndexOutOfBoundsException aioobe){
 

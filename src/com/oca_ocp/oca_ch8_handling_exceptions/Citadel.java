@@ -20,7 +20,7 @@ public class Citadel {
 
             // Its a checked exception , need to be handled , or declared in method instead of RuntimException
 
-           //  throw new CastleUnderSiegeException();
+           //throw new CastleUnderSiegeException();
 
           /*  try{throw new CastleUnderSiegeException();
             }catch(CastleUnderSiegeException e){ e.printStackTrace();}*/

@@ -14,7 +14,7 @@ public class Furniture {
 
             bw.write("Blue coach on sale!");
         }finally {
-            //w.flush();
+           // w.flush();
             w.close();
         }
         System.out.println("Done");

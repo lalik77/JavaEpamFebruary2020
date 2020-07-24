@@ -44,7 +44,7 @@ public class Compile {
 
         System.out.println("\n Q13 code snippet ");
 
-       // Predicate<StringBuilder> p = (StringBuilder b) ->{return true;} ;// see bellow (!above)
+       //Predicate<StringBuilder> p = (StringBuilder b) ->{return true;} ;// see bellow (!above)
 
          Predicate<StringBuilder> p = (StringBuilder b) ->true;
 
@@ -89,7 +89,7 @@ public class Compile {
 
         /*Q25 code snippet*/
 
-        List balloons = new ArrayList();
+        List balloons = new ArrayList<>();
 
 
         /* Q28 code snippet */

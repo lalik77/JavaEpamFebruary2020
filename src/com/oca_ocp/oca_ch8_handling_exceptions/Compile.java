@@ -35,9 +35,19 @@ public class Compile {
 
         System.out.println("Q33 code snippet");
 
+        //See CCE.java class
+
        /* final Object  exception = new Exception();
         final Exception data = (RuntimeException)exception ;
         System.out.println(data);*/
+
+        final Object  exception = new RuntimeException();
+        final Exception data = (RuntimeException)exception ;
+        System.out.println(data);
+       
+      /* RuntimeException data1 = new RuntimeException();
+       Exception b = (Exception)data1;
+        System.out.println(b); */
 
         /*final Object object = new Integer(2);
         final Number number =(Integer) object;
@@ -47,10 +57,10 @@ public class Compile {
         System.out.println(i);*/
 
 
-        final Object o = new Integer(4);
+       /* final Object o = new Integer(4);
         byte b = (Byte) o ;
 
-        System.out.println(b);
+        System.out.println(b);*/
 
 
 

@@ -9,6 +9,7 @@ public class Forecast {
         System.out.print( " " +  Snow.FLURRY.ordinal());
         System.out.print( " " +  Snow.FLURRY);
 
+
         //System.out.print(" " + Snow.valueOf("flurrys".toUpperCase()).name());
     }
 }

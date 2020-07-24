@@ -13,6 +13,10 @@ public class ThePlan {
 
         }  //else  error
 
+        int my_plan = 1 ;
+        my_plan = my_plan++ + --my_plan;
+        System.out.println("my_plan = " + my_plan);
+
     }
 
 }
